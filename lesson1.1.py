@@ -1,10 +1,10 @@
-AB = 10
-BC = 20
-CA = 30
-d1 = int(input("ВВЕДИТЕ ДЛИНУ СТОРОНЫ AB"))
-d2 = int(input("ВВЕДИТЕ ДЛИНУ СТОРОНЫ BC"))
-d3 = int(input("ВВЕДИТЕ ДЛИНУ СТОРОНЫ CA"))
-if d1 == AB and d2 == BC and d3 == CA:
-    print ("ТРЕУГОЛЬНИК СУЩЕСТВУЕТ")
+try:
+    100/0
+except ZeroDivisionError:
+    print("НА НОЛЬ ДЕЛИТЬ НЕЛЬЗЯ")
+except TypeError:
+    print("ОШИБКА ТИПА")
 else:
-    print ("ТАКОГО ТРЕУГОЛЬНИКА НЕ СУЩЕСТВУЕТ")
+    print("ОШИБОК НЕТ")
+finally:
+    print("ПРОГРАММА РАБОТАЕТ")
