@@ -1,8 +1,10 @@
-str1 = "translater"
-print(str1[0:11])
-print(str1[0:11:2])
-print(str1[1:11:2])
-print(str1[-1:-11:-1])
-print(str1[6:11])
-print(str1[0:6])
-print(str1[-2:-10:-1])
+AB = 10
+BC = 20
+CA = 30
+d1 = int(input("ВВЕДИТЕ ДЛИНУ СТОРОНЫ AB"))
+d2 = int(input("ВВЕДИТЕ ДЛИНУ СТОРОНЫ BC"))
+d3 = int(input("ВВЕДИТЕ ДЛИНУ СТОРОНЫ CA"))
+if d1 == AB and d2 == BC and d3 == CA:
+    print ("ТРЕУГОЛЬНИК СУЩЕСТВУЕТ")
+else:
+    print ("ТАКОГО ТРЕУГОЛЬНИКА НЕ СУЩЕСТВУЕТ")
