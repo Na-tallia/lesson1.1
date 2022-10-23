@@ -1,10 +1,10 @@
-import random
-n=random.randint(1000000000,9999999999)
-print(n)
+spisok=list(range(-10,11))
 summ=0
-for i in str(n):
-    summ+=int(i)
+for i in spisok:
+    if int(spisok[i])%2==0 and int(spisok[i])>0:
+        summ+=int(spisok[i])
 print(summ)
+i+=1
 
 
 
