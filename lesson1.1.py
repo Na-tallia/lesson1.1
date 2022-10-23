@@ -1,8 +1,11 @@
-a=int(input("Введите высоту треугольника "))
-for i in range(1,a+1):
-    for j in range(i):
-        print("*", end=" ")
-    print()
+import random
+n=random.randint(1000000000,9999999999)
+print(n)
+summ=0
+for i in str(n):
+    summ+=int(i)
+print(summ)
+
 
 
 
